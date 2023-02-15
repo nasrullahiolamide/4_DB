@@ -3,21 +3,21 @@ This aim of this project is to write the database schema for a complex e-commerc
 
 ![E_commerce_structure](e_commerce_schema.png)
 
-
 ## usage
 To use this database schema;
-+ copy the code in the `e_commerce_schema.sql` file and paste into a `_name_.sql` file and copy the code in `create_db.sql` file 
++ copy the code in the `e_commerce_schema.sql` file and paste into a `_name_.sql` file and copy the code in `create_db.sql` file into a file with the same name.
+
 + create your database by running `cat create_db.sql | sudo mysql -hlocalhost -uroot -p` in your terminal
+
 + In your terminal, run `cat _name_.sql | sudo mysql -hlocalhost -uroot -p e_commerce` to create the tables from this schema.
 
 If everything went well, you will not get a prompt. You will only get a prompt when there is an error in your code.
 
-### confimation
+### confirmation
 To confirm if your tables are created;
-
++ copy the code in `show_tables.sql` file into a file with same name and run `show_tables.sql | sudo mysql -hlocalhost -uroot -p e_commerce` in your terminal.
 
 You can also use the mysql interactive shell to view your table;
-
 + `sudo mysql -uroot -p`
 + `use e_commerce`
 + `show tables`
