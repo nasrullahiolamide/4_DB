@@ -1,7 +1,7 @@
 # SQL
 This aim of this project is to write the database schema for a complex e-commerce website. This image og the DB is show below;
 
-
+![alt text](https://github.com/nasrullahiolamide/4_DB/SQL_Schema/blob/master/e_commerce_schema?raw=true)
 
 
 ## usage
